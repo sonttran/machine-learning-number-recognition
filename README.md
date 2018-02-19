@@ -18,6 +18,7 @@ Hand written number recognition by machine learning with <a href="http://yann.le
 ### Training and prediction
 * Histogram and Bayesian learning algorithms are built on dimension reduced dataset (2d)
 * A Random pair of 1 and 9 is chosen from dataset and applied to both algorithms for prediction. In this particular case, results are quite accrurate: 
+
 ![Prediction results](./img/Prediction_results.png)
 
 
