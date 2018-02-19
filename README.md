@@ -1,8 +1,8 @@
 # machine-learning-number-recognition
-Hand written number recognition by machine learning with MNIST dataset. Learning algorithms used are Histogram and Bayesian.
+Hand written number recognition by machine learning with <a href="http://yann.lecun.com/exdb/mnist/" target="_blank">MNIST dataset</a>. Learning algorithms used are Histogram and Bayesian.
 
 ### Dataset 
-* Dataset is obtained from <a href="http://yann.lecun.com/exdb/mnist/" target="_blank">Dr. Yan Lecun's website</a>Dr. Yan Lecun website. It's ready to be use and not modified in any way.
+* Dataset is obtained from <a href="http://yann.lecun.com/" target="_blank">Dr. Yan Lecun's website</a>. It's ready to be use and not modified in any way.
 * Each data record is a 28x28 pixel grid (784 dimensions vector). This pixel grid captures a hand written pattern of numbers (from 0 to 9). In this algorithm, we are only intested in number 1 and 9.
 * Selected data records of 1 and 9 in the dataset:
 ![selected data](./img/selected_data.png)
