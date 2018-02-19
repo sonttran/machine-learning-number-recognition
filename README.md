@@ -24,3 +24,9 @@ Hand written number recognition by machine learning with MNIST dataset. Learning
 ### Training accruracy
 * Both algorithms are used on the whole dataset to calculate the training accruracy:
 ![training accuracy](./img/training accuracy.png)
+
+
+### Observations
+* Histogram and Bayesian algorithms work mighty fine in this particular case!
+* Although with a significant amount of dimension reduction (784 -> 2), PCA still captures a whole lot of information of the dataset. Hence, producing an impressive accuracy when predicting randomly picked number from the set. Although these numbers are from the training set itself, the accuracy of 98.6% for Histogram and 98% for Bayesian is impressive (once again, dimension is reduced from 784 to 2).
+* When the prediction result is quite good, we should not be too excited and believe that dimension reduction is a magic tool. Looking back at scatter plot of reduced demension dataset, we can see by the nature of image capturing, number "1" and "9" are quite well seperated. Blue dots and red dots overlap with a minor amount. This is where Histogram data counting and Bayesian 2D works best. For more complicated problems, e.g. majority of red and blue dots overlap, we can't reduce the dataset to this low as 2.
