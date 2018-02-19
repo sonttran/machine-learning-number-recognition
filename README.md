@@ -3,21 +3,21 @@ Hand written number recognition by machine learning with <a href="http://yann.le
 
 ### Dataset 
 * Dataset is obtained from <a href="http://yann.lecun.com/" target="_blank">Dr. Yan Lecun's website</a>. It's ready to be use and not modified in any way.
-* Each data record is a 28x28 pixel grid (784 dimensions vector). This pixel grid captures a hand written pattern of numbers (from 0 to 9). In this algorithm, we are only intested in number 1 and 9.
+* Each data record is a 28x28 pixel grid (784 dimensions vector). This pixel grid captures a hand written pattern of numbers (from 0 to 9). In this work, we are only intested in number 1 and 9.
 * Selected data records of 1 and 9 in the dataset:
 ![selected data](./img/selected_data.png)
 
 
 ### Data dimension reduction
-* Principle Component Analysis menthod is applied to reduce the dimension of data records.
+* <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank">Principle Component Analysis</a> menthod is applied to reduce the dimension of data records.
 * Only two most significant principal components are selected to represent the data.
-* Dataset after dimension reduction:
+* Dataset after dimension reduction: 
 ![Dimension reduced](./img/Dimension_reduced.png)
 
 
 ### Training and prediction
 * Histogram and Bayesian learning algorithms are built on dimension reduced dataset (2d)
-* A Random pair of 1 and 9 is chosen from dataset and applied to both algorithms for prediction. In this particular case, results are quite accrurate:
+* A Random pair of 1 and 9 is chosen from dataset and applied to both algorithms for prediction. In this particular case, results are quite accrurate: 
 ![Prediction results](./img/Prediction_results.png)
 
 
