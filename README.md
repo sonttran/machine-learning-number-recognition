@@ -9,7 +9,7 @@ Hand written number recognition by Histogram, Bayesian approach and principal co
 
 
 ### Data dimension reduction
-* <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank">Principle Component Analysis</a> menthod is applied to reduce the dimension of data records.
+* <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank">Principle Component Analysis</a> method is applied to reduce the dimension of data records.
 * Only two most significant principal components are selected to represent the data.
 * Dataset after dimension reduction: 
 ![Dimension reduced](./img/Dimension_reduced.png)
