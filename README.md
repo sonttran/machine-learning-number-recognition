@@ -3,7 +3,7 @@ Hand written number recognition by Histogram, Bayesian approach and principal co
 
 ### Dataset 
 * Dataset is obtained from <a href="http://yann.lecun.com/" target="_blank">Dr. Yan Lecun's website</a>. It's ready to be use and not modified in any way.
-* Each data record is a 28x28 pixel grid (784 dimensions vector). This pixel grid captures a hand written pattern of numbers (from 0 to 9). In this work, we are only intested in number 1 and 9. More numbers can be considered by changing configurations when desired.
+* Each data record is a 28x28 pixel grid (784 dimensions vector). This pixel grid captures a hand written pattern of numbers (from 0 to 9). In this work, we are only intested in number 1 and 9. More numbers can be considered by changing configurations if desired.
 * Selected data records of 1 and 9 in the dataset:
 ![selected data](./img/selected_data.png)
 
